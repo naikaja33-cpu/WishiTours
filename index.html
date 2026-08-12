@@ -41,6 +41,7 @@
       .card:nth-child(2) { background-image:url('https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80'); }
       .card:nth-child(3) { background-image:url('https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=80'); }
       .tag { position:absolute; top:20px; left:20px; border-radius:99px; padding:7px 11px; font-size:11px; font-weight:700; color:var(--ink); background:var(--lime); } .card h3 { font:600 30px "Playfair Display"; margin:0 0 8px; } .card p { margin:0; font-size:13px; opacity:.9; }
+      .whatsapp-chat { position:fixed; z-index:10; right:24px; bottom:24px; display:flex; align-items:center; gap:10px; padding:13px 18px; border-radius:999px; background:#25d366; color:#fff; font-size:14px; font-weight:700; box-shadow:0 12px 26px #15352f33; transition:transform .25s,box-shadow .25s; } .whatsapp-chat:hover { transform:translateY(-3px); box-shadow:0 16px 30px #15352f44; } .whatsapp-icon { width:22px; height:22px; display:grid; place-items:center; border:2px solid currentColor; border-radius:50%; font-size:13px; }
       @media (max-width:700px) { nav ul { display:none; } .hero { min-height:700px; } .hero-copy { padding-top:86px; } h1 { letter-spacing:-2px; } .hero::after,.stamp { display:none; } .search { margin-top:54px; flex-wrap:wrap; padding:9px; } .search-item { flex-basis:50%; padding:10px; } .search .button { width:100%; margin-top:5px; } .intro { display:block; } .intro p { margin-top:18px; } .cards { grid-template-columns:1fr; } }
     </style>
   </head>
@@ -52,5 +53,6 @@
       <div class="search"><div class="search-item"><label>Where to?</label><b>Everywhere, please</b></div><div class="search-item"><label>When?</label><b>Choose your dates</b></div><div class="search-item"><label>Travellers</label><b>2 adventurous souls</b></div><button class="button">Search trips&nbsp; →</button></div>
     </header>
     <main id="places"><section class="intro"><h2>Places with a pulse.....</h2><p>Handpicked escapes for the curious, the restless, and the wonderfully hard to impress.</p></section><section class="cards"><a class="card" href="#"><span class="tag">from $890</span><h3>Wild Iceland</h3><p>8 days · Glaciers &amp; northern lights</p></a><a class="card" href="#"><span class="tag">from $740</span><h3>Desert dreams</h3><p>6 days · Marrakech &amp; the Atlas</p></a><a class="card" href="#"><span class="tag">from $980</span><h3>Vietnam slowly</h3><p>10 days · Street food &amp; hidden bays</p></a></section></main>
+      <a class="whatsapp-chat" href="https://wa.me/917008155645?text=Hello%20WishiTours%2C%20I%27d%20like%20to%20plan%20a%20trip." target="_blank" rel="noopener noreferrer" aria-label="Chat with WishiTours on WhatsApp"><span class="whatsapp-icon" aria-hidden="true">☎</span>Chat on WhatsApp</a>
   </body>
 </html>

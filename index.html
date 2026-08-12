@@ -11,8 +11,8 @@
     <style>
       :root { --ink:#15352f; --cream:#f8f5ed; --lime:#d7ff68; --coral:#ff775f; --sky:#b8e2ee; }
       * { box-sizing:border-box; }
-      body { margin:0; background:var(--cream); color:var(--ink); font-family:"DM Sans",sans-serif; }
-      .hero { min-height:760px; position:relative; overflow:hidden; padding:24px clamp(22px,5vw,78px) 58px; background:linear-gradient(120deg,#b8e2ee 0%,#d7f2e9 46%,#f8f5ed 100%); }
+      body { margin:0; background:radial-gradient(circle at 9% 8%,#d7ff6899 0 11%,transparent 30%),radial-gradient(circle at 92% 74%,#b8e2ee 0 14%,transparent 34%),var(--cream); color:var(--ink); font-family:"DM Sans",sans-serif; }
+      .hero { min-height:760px; position:relative; overflow:hidden; padding:24px clamp(22px,5vw,78px) 58px; background:linear-gradient(120deg,#b8e2eed9 0%,#d7f2e9d1 46%,#f8f5ede0 100%),url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=2200&q=90") center/cover; }
       .hero::before { content:""; position:absolute; width:680px; height:680px; border-radius:50%; background:var(--lime); right:-190px; top:80px; opacity:.78; }
       .hero::after { content:"✦  wander often  ✦  stay curious"; position:absolute; right:22px; top:258px; color:#1c4c42; letter-spacing:2px; font-size:12px; transform:rotate(90deg); transform-origin:right top; }
       nav { position:relative; z-index:2; display:flex; align-items:center; justify-content:space-between; }

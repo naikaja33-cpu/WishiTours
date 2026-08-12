@@ -1,1 +1,11 @@
+name: Run every 5 minutes
+on:
+  schedule:
+    - cron: '*/5 * * * *'
 
+jobs:
+  run-task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: My Task
+        run: echo "Running every 5 minutes"
